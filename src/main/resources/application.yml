@@ -12,6 +12,7 @@ spring:
     password: cos1234
   jpa:
 #    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: create-drop
     properties:
